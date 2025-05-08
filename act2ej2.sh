@@ -1,6 +1,10 @@
-num = int(input("Introdueix un nombre enter: "))
+#!/bin/bash
 
-if num < 0:
-    print("El nombre és negatiu.")
-else:
-    print("El nombre no és negatiu.")
+echo "Introdueix un número enter:"
+read numero
+
+if [ "$numero" -lt 0 ]; then
+    echo "El número és negatiu."
+else
+    echo "El número no és negatiu."
+fi
