@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Argumento 1: $1"
-echo "Argumento 2: $2"
-echo "Argumento 3: $3"
-echo "Argumento 4: $4"
-echo "Argumento 5: $5"
-echo "Nombre del script: $0"
+echo "Argument 1: $1"
+echo "Argument 2: $2"
+echo "Argument 3: $3"
+echo "Argument 4: $4"
+echo "Argument 5: $5"
+echo "Nom del script: $0"
